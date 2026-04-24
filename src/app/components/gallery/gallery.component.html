@@ -1,0 +1,27 @@
+<br>
+<br>
+<br>
+<h1 style="text-align: center;">PRODUCTS</h1>
+<div class="gallery-grid">
+  <div class="gallery-card" *ngFor="let product of products">
+
+    <img [src]="product.image" [alt]="product.title" />
+
+    <div class="overlay">
+      <h3>{{ product.title }}</h3>
+      <p>{{ product.description }}</p>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="products-grid"> ✅
+  <div class="product-card"></div>
+  <div class="product-card"></div>
+</div>
+
+<br>
+<br>
+<br>
+<br>

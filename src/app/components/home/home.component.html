@@ -1,0 +1,32 @@
+<div class="hero container-fluid">
+
+  <div class="slider-box">
+
+    <div 
+      class="slide" 
+      *ngFor="let img of images; let i = index"
+      [class.active]="i === currentIndex"
+    >
+      <img [src]="img" />
+
+      <div class="overlay"></div>
+
+      <div class="hero-text text-center">
+        <h1>Efficiency and Innovation in Every Pack</h1>
+        <p>Quality + Innovation</p>
+      </div>
+
+    </div>
+
+    <!-- 🔥 DOTS -->
+    <div class="dots">
+      <span 
+        *ngFor="let img of images; let i = index"
+        [class.active]="i === currentIndex"
+        (click)="goToSlide(i)">
+      </span>
+    </div>
+
+  </div>
+
+</div>

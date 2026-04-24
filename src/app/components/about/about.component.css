@@ -1,0 +1,125 @@
+/* SECTION BACKGROUND */
+.about-section {
+  background: linear-gradient(135deg, #f9fafc, #c37209);
+  padding: 60px 0;
+}
+
+/* 🔥 GLASS CARD (TRANSPARENT) */
+.glass-card {
+  position: relative;
+
+  background: transparent; /* ✅ removed color */
+  border-radius: 20px;
+  padding: 40px;
+  /* color: white; */
+  transform: translateY(-10px);
+
+  max-width: 1100px;
+  margin: 110px auto;
+
+  transition: all 0.4s ease;
+}
+
+/* 🔥 HOVER EFFECT (LIFT + SHADOW) */
+.glass-card:hover {
+  transform: translateY(-10px) scale(1.01);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+}
+
+/* 🔥 GLOW BORDER EFFECT */
+.glass-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  padding: 2px;
+  
+
+  background: linear-gradient(135deg, #155e30, #155e30, #155e30);
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+
+  opacity: 0;
+  transition: 0.4s;
+}
+
+/* SHOW BORDER ON HOVER */
+.glass-card:hover::before {
+  opacity: 1;
+}
+
+/* TEXT COLORS */
+.about-left .welcome {
+  color: rgb(1, 1, 1);
+  font-style: italic;
+  font-size: 20px;
+  letter-spacing: 5px;
+  font-style: Times New Roman ;
+}
+
+.about-left h1 {
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: rgba(5, 87, 33, 0.603);
+  font-style: Times New Roman;
+}
+
+.about-left h4 {
+  font-size: 16px;
+  color: #f1f5f9;
+}
+
+.about-right p {
+  font-size: 22px;
+  line-height: 1.7;
+  color: #f8fafc;
+  margin-bottom: 12px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+/* INFO BOX */
+.info-box {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.info-box:hover {
+  transform: translateY(-5px);
+}
+
+/* PRODUCT BOX */
+.product-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  height: 100%;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.product-box:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.product-box h4 {
+  margin-bottom: 10px;
+  color: #14532d;
+}
+
+.product-box p {
+  font-size: 14px;
+  color: #444;
+}

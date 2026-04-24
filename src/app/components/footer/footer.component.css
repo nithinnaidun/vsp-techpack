@@ -1,0 +1,91 @@
+/* footer {
+  padding: 1.5rem 1rem 2rem;
+  background: radial-gradient(circle at top, #dcdde2, #cdbfb3);
+  border-top: 1px solid rgba(148, 163, 184, 0.2);
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.small {
+  font-size: 0.8rem;
+}
+
+@media (min-width: 768px) {
+  footer {
+    padding-inline: 2rem;
+  }
+
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+} */
+
+
+
+footer {
+  background: #14532d; /* dark green match */
+  color: #f0fdf4;
+  padding: 10px 0; /* 🔥 reduced height */
+  text-align: center;
+}
+
+.footer p {
+  margin: 4px 0;
+  font-size: 13px;
+}
+
+.footer .small {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+app-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+router-outlet + * {
+  flex: 1;
+}
+
+
+
+footer {
+  background: #14532d;
+  color: #f0fdf4;
+  padding: 10px 0;
+  text-align: center;
+  margin-top: auto; /* 🔥 IMPORTANT */
+}
+
+.footer p {
+  margin: 4px 0;
+  font-size: 13px;
+}
+
+.footer .small {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

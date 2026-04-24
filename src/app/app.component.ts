@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'frontend-app';
+
+  scrollTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
 }

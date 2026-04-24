@@ -1,0 +1,135 @@
+/* 🔥 FIX HEADER OVERLAP */
+.contact-section {
+  padding: 120px 20px 60px; /* top padding = navbar height */
+  background: #f9fafc;
+}
+
+/* TITLE */
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+/* LEFT SIDE */
+.contact-info {
+  background: #14532d;
+  color: white;
+  padding: 30px;
+  border-radius: 12px;
+  height: 100%;
+}
+
+.contact-info h4 {
+  margin-bottom: 20px;
+}
+
+/* SOCIAL */
+.social-links {
+  margin-top: 20px;
+}
+
+.social-icon {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 10px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+/* COLORS */
+.insta { background: linear-gradient(45deg, #f58529, #dd2a7b); }
+.fb { background: #1877f2; }
+.whatsapp { background: #25D366; }
+
+/* HOVER */
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+/* FORM */
+.contact-form {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* INPUT */
+.form-control {
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* BUTTON */
+.btn-success {
+  background: #14532d;
+  border: none;
+}
+
+.btn-success:hover {
+  background: #166534;
+}
+
+
+
+
+/* bottom */
+/* COMPANY FOOTER CARD */
+.company-footer {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.footer-card {
+  background: #ffffff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+/* TEXT STYLES */
+.thanks {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.company-name {
+  color: #16a34a;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.address {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.contact-actions {
+  display: flex;
+  gap: 12px; /* 🔥 space between buttons */
+  margin-bottom: 15px;
+  flex-wrap: wrap; /* mobile safe */
+}
+
+.contact-actions .btn {
+  transition: 0.3s;
+}
+
+.contact-actions .btn:hover {
+  transform: translateY(-2px);
+}
