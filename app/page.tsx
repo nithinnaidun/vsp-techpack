@@ -267,7 +267,7 @@ export default function VSPTechpackWebsite() {
       Company Establishment
     </h3>
 
-    <p className="mt-3 text-slate-700 text-[12px] md:text-[15.68px] leading-6 tracking-wide text-left">
+    <p className="mt-3 text-slate-700 text-[12px] md:text-[15.68px] leading-6 tracking-wide text-justify break-word">
       {/* <p className="mt-2 text-slate-700 text-[12px] md:text-[16px] leading-3 md:leading-5 text-justify break-words"></p> */}
 
       VSP TECHPACK was established in 2024 as a specialized
