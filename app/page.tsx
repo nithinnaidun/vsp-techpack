@@ -553,7 +553,7 @@ export default function VSPTechpackWebsite() {
               <p>Shashank Naidu </p>
               <p>📞 +91 9880934867 / 9480407432</p>
               {/* <p>📞 +91 9480407432</p> */}
-              <p>📧 info@vsptechpack.com</p>
+              <p>📧 vsptechpack@gmail.com</p>
               <p>
                 📍 No 3/14, Ground Floor, Srinivasa Kalyana Mantapa,
                 Begur Road, Bangalore - 560068
