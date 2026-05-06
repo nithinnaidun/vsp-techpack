@@ -174,7 +174,7 @@ export default function VSPTechpackWebsite() {
 
           <div>
 
-            <span className="bg-white text-[#0b5d2a] px-5 py-3 rounded-full text-lg font-semibold">
+            <span className="bg-white text-[#0b5d2a] px-4 py-1 rounded-full text-lg font-semibold">
               
             Efficiency and Innovation in Every Pack
 
