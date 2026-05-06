@@ -28,7 +28,7 @@ export default function VSPTechpackWebsite() {
     },
     {
       title: "Printed Corrugated Boxes",
-      image: "/images/Printed Boxes.png",
+      image: "/images/printed boxes.png",
     },
     {
       title: "Pallet Type Boxing",
@@ -262,20 +262,20 @@ export default function VSPTechpackWebsite() {
 
   {/* COMPANY ESTABLISHMENT */}
   {/* <div className="bg-white rounded-3xl p-6  shadow-lg hover:shadow-2xl transition duration-500 h-[500px] flex flex-col justify-center"> */}
-<div className="bg-white rounded-3xl p-6 shadow-lg hover:shadow-2xl transition duration-500 h-[500px] max-w-[520px] w-full flex flex-col justify-center">
+<div className="bg-white rounded-4xl p-6 shadow-lg hover:shadow-2xl transition duration-500 h-[500px] max-w-[520px] w-full flex flex-col justify-center">
     <h3 className="text-2xl font-bold text-slate-900 leading-tight">
       Company Establishment
     </h3>
 
-    <p className="mt-5 text-slate-600 leading-7 text-[16px]">
+    <p className="mt-3 text-slate-700 text-[12px] md:text-[15.68px] leading-6 tracking-wide text-left">
+      {/* <p className="mt-2 text-slate-700 text-[12px] md:text-[16px] leading-3 md:leading-5 text-justify break-words"></p> */}
 
       VSP TECHPACK was established in 2024 as a specialized
       corrugated box manufacturing company located in Bangalore.
 
       <br /><br />
 
-      We focus on delivering premium-quality packaging solutions
-      with reliable manufacturing support, skilled manpower,
+      We focus on delivering premium-quality packaging solutions with reliable manufacturing support, skilled manpower,
       and modern machinery.
 
       <br /><br />
